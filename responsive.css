@@ -1,0 +1,54 @@
+/* ================================================
+   responsive.css — TradeMatrix Pro
+   Breakpoints & Layout Overrides
+   ================================================ */
+
+/* ---- Topbar / Tab Navigation ---- */
+@media (max-width: 900px) {
+  .tab-nav { gap: 2px; }
+  .tb { padding: 4px 8px; font-size: .72rem; letter-spacing: 1px; }
+  .tb-logo-txt { display: none; }
+}
+
+@media (max-width: 700px) {
+  .topbar { padding: 0 10px; gap: 8px; }
+  .tab-nav { overflow-x: auto; }
+  .acct-badge { display: none; }
+}
+
+/* ---- Panels ---- */
+@media (max-width: 768px) {
+  .panel { padding: 12px; }
+  .card { padding: 12px 14px; }
+}
+
+/* ---- Chat / Mentor ---- */
+@media (max-width: 600px) {
+  .chat-wrap { flex-direction: column; }
+  .chat-input-bar { padding: 8px 10px; gap: 8px; }
+}
+
+/* ---- Strategy Tester ---- */
+@media (max-width: 768px) {
+  .st-controls-grid { grid-template-columns: 1fr 1fr !important; }
+  .sym-row { flex-wrap: wrap; }
+}
+
+/* ---- Landing Page ---- */
+@media (max-width: 600px) {
+  .lp-nav { padding: 0 16px; }
+  .lp-nav-links { display: none; }
+  .lp-hero { padding: 60px 16px 40px; }
+  .lp-hero-stats { gap: 24px; }
+  .lp-section { padding: 48px 16px; }
+  .lp-section-full { padding: 48px 16px; }
+  .lp-testimonial-grid { grid-template-columns: 1fr !important; }
+  .lp-faq-grid { grid-template-columns: 1fr !important; }
+}
+
+@media (max-width: 480px) {
+  .lp-hero-btns { flex-direction: column; align-items: center; }
+  .lp-hero-title { font-size: 1.8rem; letter-spacing: 3px; }
+  .pin-grid { width: 200px; }
+  .pin-btn { height: 52px; }
+}
