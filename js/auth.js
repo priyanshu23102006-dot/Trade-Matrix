@@ -9,7 +9,11 @@
 // ============= AUTH + ADMIN SYSTEM ==================
 // ====================================================
 
-const ADMIN_PASSWORD = 'Admin@TM2024';
+function showUpgradeModal() {
+  alert("Upgrade feature coming soon!");
+  }
+  
+ const ADMIN_PASSWORD = 'Admin@TM2024';
 
 function getUsers() {
   try {
